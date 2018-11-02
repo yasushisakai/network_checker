@@ -96,11 +96,6 @@ public class RoadNetwork {
     for(int i = 0; i < graph.nodes.size(); i++){
       Node tempN = (Node)graph.nodes.get(i);
       for(int j = 0; j < tempN.links.size(); j++){
-        if(showGlyphs){
-          p.stroke(#AAAAAA);
-        }else{
-          p.stroke(universe.colorMap.get(type));
-        }
         p.strokeWeight(1);
         p.line(tempN.x, tempN.y, ((Connector)tempN.links.get(j)).n.x, ((Connector)tempN.links.get(j)).n.y);
       }
