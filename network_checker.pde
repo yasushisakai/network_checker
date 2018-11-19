@@ -1,6 +1,7 @@
 
 
-String geojsonFile = "test.geojson";
+// String geojsonFile = "test.geojson";
+String geojsonFile = "bike_2_issue45.geojson";
 
 
 int SIMULATION_WIDTH = 2128;
